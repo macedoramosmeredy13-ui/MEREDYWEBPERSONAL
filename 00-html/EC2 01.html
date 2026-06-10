@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meredy Macedo Ramos</title>
+
+    <!-- CSS: Permite cambiar colores, tamaños y estilos de la pagina -->
+    <style>
+
+        /* body modifica toda la pagina */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #9dc1f0;
+            padding: 24px;
+        }
+
+        /* h1 cambia el estilo de los titulos principales */
+        h1 {
+            color: #071830;
+            text-align: center;
+        }
+
+        /* h2 cambia color de subtitulos */
+        h2 {
+            color: #6a0dad;
+        }
+
+        /* p modifica apariencia de los parrafos */
+        p {
+            color: #444;
+            line-height: 1.6;
+        }
+
+        /* ul cambia el fondo de la lista */
+        ul {
+            background-color: #387580;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        /* li cambia el espacio entre elementos */
+        li {
+            margin-bottom: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- h1 muestra el titulo principal -->
+    <h1>Meredy Macedo Ramos</h1>
+
+    <!-- p representa un parrafo -->
+    <p id="texto">
+        Hola, soy Meredy Macedo Ramos, tengo 21 años y soy de Peru.
+        Me gusta el arte, la musica y el derecho.
+        Estoy en el noveno ciclo de la carrera y practico en el Ministerio de Justicia.
+    </p>
+
+    <!-- h2 crea subtitulos -->
+    <h2>Que estudio</h2>
+
+    <p>
+        Estudio la aplicación de las normas, procesos civiles, penales, laborales y conductas jurídicas y antijurídicas de las personas.
+    </p>
+
+    <h2>Importancia de la carrera estudiada</h2>
+
+    <p>
+        Ayuda a entender temas como privacidad, celebracion de contratos y conocimiento jurídico de asuntos contenciosos y no contenciosos en un proceso.
+    </p>
+
+    <h1>Tareas de hoy</h1>
+
+    <!-- ul crea una lista -->
+    <ul>
+        <!-- li representa cada elemento de la lista -->
+        <li>Leer una resolucion y redactar demandas</li>
+        <li>Hacer escritos de propuesta de liquidacion</li>
+        <li>Subir escritos a Sinoe</li>
+    </ul>
+
+</body>
+
+</html>
+
+<!--En HTML, las etiquetas y contraetiquetas sirven para delimitar y organizar el contenido de una página web.-->
+    <!-- BOTON -->
+    <button onclick="cambiarTexto()">
+        Cambiar texto
+    </button>
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        function cambiarTexto() {
+
+            document.getElementById("texto").innerHTML =
+                "Me considero una persona con habilidades blandas, comunicación asertiva y disciplina en mis labores. Asimismo, trabajo bajo presión y me adapto a diversos ambientes laborales.";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
