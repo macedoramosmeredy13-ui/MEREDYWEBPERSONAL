@@ -4,94 +4,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meredy Macedo Ramos</title>
 
-    <!-- CSS: Permite cambiar colores, tamaños y estilos de la pagina -->
+    <title>Perfil Personal - Meredy Macedo Ramos</title>
+
+    <!-- CSS -->
     <style>
 
-        /* body modifica toda la pagina */
+        /* Diseño general de la pagina */
         body {
             font-family: Arial, sans-serif;
-            background-color: #9dc1f0;
-            padding: 24px;
+            background-color: #dbeafe;
+            padding: 30px;
         }
 
-        /* h1 cambia el estilo de los titulos principales */
+        /* Contenedor principal */
+        .contenedor {
+            background-color: white;
+            padding: 25px;
+            border-radius: 15px;
+            width: 70%;
+            margin: auto;
+        }
+
+        /* Titulo principal */
         h1 {
-            color: #071830;
+            color: #0f172a;
             text-align: center;
         }
 
-        /* h2 cambia color de subtitulos */
+        /* Subtitulos */
         h2 {
-            color: #6a0dad;
+            color: #4c1d95;
         }
 
-        /* p modifica apariencia de los parrafos */
+        /* Parrafos */
         p {
-            color: #444;
+            color: #333;
             line-height: 1.6;
         }
 
-        /* ul cambia el fondo de la lista */
+        /* Listas */
         ul {
-            background-color: #387580;
+            background-color: #bfdbfe;
             padding: 15px;
             border-radius: 10px;
         }
 
-        /* li cambia el espacio entre elementos */
+        /* Elementos de lista */
         li {
-            margin-bottom: 8px;
+            margin-bottom: 10px;
+        }
+
+        /* Boton */
+        button {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        /* Efecto al pasar el mouse */
+        button:hover {
+            background-color: #2563eb;
         }
 
     </style>
+
 </head>
 
 <body>
 
-    <!-- h1 muestra el titulo principal -->
-    <h1>Meredy Macedo Ramos</h1>
+    <div class="contenedor">
 
-    <!-- p representa un parrafo -->
-    <p id="texto">
-        Hola, soy Meredy Macedo Ramos, tengo 21 años y soy de Peru.
-        Me gusta el arte, la musica y el derecho.
-        Estoy en el noveno ciclo de la carrera y practico en el Ministerio de Justicia.
-    </p>
+        <!-- TITULO -->
+        <h1>Meredy Macedo Ramos</h1>
 
-    <!-- h2 crea subtitulos -->
-    <h2>Que estudio</h2>
+        <!-- PRESENTACION -->
+        <p id="texto">
+            Soy estudiante de la carrera de Derecho en la Universidad Científica del Sur
+            y actualmente curso el noveno ciclo de la carrera.
+        </p>
 
-    <p>
-        Estudio la aplicación de las normas, procesos civiles, penales, laborales y conductas jurídicas y antijurídicas de las personas.
-    </p>
+        <!-- HABILIDADES -->
+        <h2>Habilidades Blandas</h2>
 
-    <h2>Importancia de la carrera estudiada</h2>
+        <ul>
+            <li>Persona proactiva</li>
+            <li>Disciplinada</li>
+            <li>Trabajo bajo presión</li>
+        </ul>
 
-    <p>
-        Ayuda a entender temas como privacidad, celebracion de contratos y conocimiento jurídico de asuntos contenciosos y no contenciosos en un proceso.
-    </p>
+        <!-- EXPERIENCIA -->
+        <h2>Experiencia Laboral</h2>
 
-    <h1>Tareas de hoy</h1>
+        <ul>
+            <li>SECIGRA en el Ministerio de Justicia</li>
+            <li>Prácticas en el Poder Judicial en Juzgado de Paz Letrado</li>
+        </ul>
 
-    <!-- ul crea una lista -->
-    <ul>
-        <!-- li representa cada elemento de la lista -->
-        <li>Leer una resolucion y redactar demandas</li>
-        <li>Hacer escritos de propuesta de liquidacion</li>
-        <li>Subir escritos a Sinoe</li>
-    </ul>
+        <!-- CONTACTO -->
+        <h2>Información de Contacto</h2>
 
-</body>
+        <p>
+            <strong>Teléfono:</strong> 906 821 377
+        </p>
 
-</html>
+        <p>
+            <strong>Correo electrónico:</strong>
+            macedoramosmeredy13@gmail.com
+        </p>
 
-<!--En HTML, las etiquetas y contraetiquetas sirven para delimitar y organizar el contenido de una página web.-->
-    <!-- BOTON -->
-    <button onclick="cambiarTexto()">
-        Cambiar texto
-    </button>
+        <br>
+
+        <!-- BOTON -->
+        <button onclick="cambiarTexto()">
+            Ver más sobre mí
+        </button>
+
+    </div>
 
     <!-- JAVASCRIPT -->
     <script>
@@ -108,3 +140,5 @@
 </body>
 
 </html>
+
+
